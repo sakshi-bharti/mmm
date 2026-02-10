@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #ff758c, #ff7eb3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  animation: pop 2s infinite;
+}
+.line {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#love {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.hidden {
+  display: none;
+}
+@keyframes pop {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
